@@ -8,7 +8,9 @@
       
       Seed Data is dynamically created Data, user can run th below commands as many times, every time Faker will generate meanigful data
       
-      python manage.py seed-db 10 -- For 10 Users with each User will have 5 Activity Periods
+       For 10 Users with each User will have 5 Activity Periods
+       
+       `python manage.py seed-db 10`
       
 
 #### Test (Heroku Git + Postgres)  
