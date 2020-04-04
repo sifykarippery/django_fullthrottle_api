@@ -18,8 +18,9 @@
       API Endpoint for Users
       https://djangosifyapp.herokuapp.com/api/v1/fullthrottle/
     
-#### Automated Deployes (Heroku + Github + Postgres)
+#### Automated Deployment (STAGE) (Heroku + Github + Postgres)
 
+      Auto Deployment Enabled in the Github Repo on master Branch by using Heroku Pipeline
       https://django-fullthrottle-stage.herokuapp.com/
       https://django-fullthrottle-stage.herokuapp.com/api/v1/fullthrottle/
 
