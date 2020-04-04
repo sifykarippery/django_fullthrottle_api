@@ -1,5 +1,29 @@
 # Django Full Throttle API Test
 
+## Verification Steps
+
+### 1. App Deployed multiple environments
+
+#### Seed Data using Command Management (Refer below Local setup section for the Steps)
+      
+      Seed Data is dynamically created Data, user can run th below commands as many times, every time Faker will generate meanigful data
+      
+      python manage.py seed-db 10 -- For 10 Users with each User will have 5 Activity Periods
+      
+
+#### Test (Heroku Git + Postgres)  
+
+      https://djangosifyapp.herokuapp.com/
+      
+      API Endpoint for Users
+      https://djangosifyapp.herokuapp.com/api/v1/fullthrottle/
+    
+#### Automated Deployes (Heroku + Github + Postgres)
+
+      https://django-fullthrottle-stage.herokuapp.com/
+      https://django-fullthrottle-stage.herokuapp.com/api/v1/fullthrottle/
+
+
 ## Step to run Run in LOCAL (with Sqlite DB)
 
 #### 1. Update Settings.py(root level folder)
